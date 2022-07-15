@@ -1,8 +1,8 @@
 const NameLength = (props) => {
-  //const { props, length } = props;
+  const { name, length } = props;
   return (
     <p className="name-length">
-      Did you know that {props.name} is {props.carrot.length} characters long?!
+      Did you know that {name} is {length} characters long?!
     </p>
   );
 };

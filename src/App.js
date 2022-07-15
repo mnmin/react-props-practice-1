@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="app">
       <Title name={name} />
-      <NameLength name={name} carrot={(name, name.length)} />
+      <NameLength name={name} length={name.length} />
       <NameReversed name={name} potato={reverse(name)} />
     </div>
   );
